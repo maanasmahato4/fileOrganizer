@@ -1,0 +1,24 @@
+{
+	"name": "file-organizer",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "commonjs",
+	"dependencies": {
+		"enquirer": "^2.4.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.7",
+		"@typescript-eslint/eslint-plugin": "^6.19.1",
+		"@typescript-eslint/parser": "^6.19.1",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.2.4",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"scripts": {
+		"build": "tsc",
+		"organize": "npm run build && node dist/index.js"
+	}
+}
